@@ -160,3 +160,8 @@ body {
     transform: scale(1.5);
     opacity: 0;
 }
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
